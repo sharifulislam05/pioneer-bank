@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+}
+#login-page h1{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.form-container {
+    box-shadow: 0px 0px 50px lightgray;
+    margin: 0 auto;
+}
+#balance-page {
+    display: none;
+}
+.display {
+    padding: 40px;
+    margin: 100px 0px 50px 80px;
+    border-radius: 20px;
+    color: white;
+}
+.deposit-area {
+    background: #8A2BE2;
+}
+.withdraw-area {
+    background: #FA8072;
+}
+.balance-area {
+    background: #FF6347;
+}
+.input-balance {
+    background: white;
+    box-shadow: 0px 0px 80px gray;
+    border-radius: 20px;
+    padding: 40px;
+    margin-left: 5%;
+}
+@media screen and (max-width: 400px) {
+    .display{
+        margin: 10px 0px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .display{
+        margin: 10px 0px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .input-balance{
+        padding: 30px;
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .input-balance{
+        padding: 30px;
+        margin: 10px;
+    }
+}
